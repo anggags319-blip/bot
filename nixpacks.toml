@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["...", "glib", "nss", "atk", "at-spi2-atk", "libdrm", "mesa", "libxkbcommon", "pango", "cairo", "asound2", "cups", "expat", "dbus", "libxcb"]
+
+[phases.install]
+cmds = ["npm install"]
+
+[start]
+cmd = "node index.js"
